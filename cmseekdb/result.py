@@ -6,6 +6,7 @@
 import cmseekdb.basic as cmseek
 
 # For the enviroument that doesn't use utf8
+import sys
 import io
 sys.stdout = io.open(sys.stdout.fileno(), 'w', encoding='utf8')
 
