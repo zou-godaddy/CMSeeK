@@ -3,8 +3,6 @@
 # This is a part of CMSeeK, check the LICENSE file for more information
 # Copyright (c) 2018 - 2020 Tuhinshubhra
 
-import os
-
 # Verbose
 verbose = False
 
@@ -26,6 +24,4 @@ log_dir = ""
 # access_directory contains the path to the directory where reports directory and reports.json files are saved
 # leave it empty to use default dir (cmseek directory if writeaccess else the current directory the user is in)
 # if you want to use a custom path.. enter the full path below
-# access_directory = ""
-
-access_directory = os.path.dirname(os.path.abspath(__file__)).replace('cmseekdb','')[:-1]
+access_directory = ""
